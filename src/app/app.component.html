@@ -1,0 +1,15 @@
+<div>
+  <ckeditor [data]="editorData"></ckeditor>
+</div>
+
+
+<div class="page-body-visual">
+  <div [innerHTML]="editorData | safeHtml">
+  </div>
+</div>
+<!-- 
+  If you want to use this template, please follow the following steps:
+  1. Fork it.
+  2. Add your code here, e.g. custom plugins.
+  3. If you want to change the default ckeditor4-angular version, you can do it in the package.json file.
+-->
